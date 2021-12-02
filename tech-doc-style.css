@@ -1,11 +1,11 @@
 body{
-  text-align: center;
+  background-color: #BB9294;
 }
 
 #navbar{
   position: fixed;
   height: 100vh;
-  width: 30%;
+  width: 300px;
   top: 0;
   bottom: 0;
   left: 0;
@@ -17,10 +17,22 @@ body{
 #navbar-header{
   border-style: solid;
   border-color: #BB9294;
+  text-align: center;
+  font-size: 1.8em;
+  color: #e2b13c;
+
+
 }
 
 h1{
   color: #e2b13c;
+}
+
+#navbar ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
 }
 
 #navbar-list{
@@ -33,25 +45,24 @@ h1{
   padding-bottom: 8px;
 }
 
-ul{
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-  text-align: center;
-}
 
 #main-doc{
-  width: 70%;
-  position: fixed;
-  right: 0;
   top: 0;
-  bottom: 0;
+  margin-left: 310px;
+  margin-right: 10px;
+  position: fixed;
   display: flex;
   flex-direction: column;
-
+  color: #21206d; 
 }
 
 article{
   margin-top: 10px;
   margin-bottom: 10px;
+
+}
+
+.main-section header{
+  font-size: 1.8em;
+  font-weight: bold;
 }
