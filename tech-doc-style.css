@@ -1,5 +1,6 @@
 body{
   background-color: #BB9294;
+
 }
 
 #navbar{
@@ -50,10 +51,8 @@ h1{
   top: 0;
   margin-left: 310px;
   margin-right: 10px;
-  position: fixed;
-  display: flex;
-  flex-direction: column;
-  color: #21206d; 
+  position: absolute;
+  color: #21206d;
 }
 
 article{
@@ -65,4 +64,9 @@ article{
 .main-section header{
   font-size: 1.8em;
   font-weight: bold;
+}
+
+.nav-link{
+  font-weight: bold;
+  color: #e2b13c;
 }
